@@ -4,7 +4,7 @@
 
             <template v-slot:activator="{ on, attrs }">
 
-                <v-btn class="ma-2" fab icon small v-bind="attrs" v-on="on">
+                <v-btn color="teal accent-4" class="ma-2" fab icon small v-bind="attrs" v-on="on">
                     <v-icon size="36px">mdi-account-circle</v-icon>
                 </v-btn>
 
@@ -12,11 +12,11 @@
 
             <v-card class="mx-auto text-center">
 
-                <v-icon size="40px">mdi-account-circle</v-icon>
+                <v-icon color="teal accent-4" size="50px">mdi-account-circle</v-icon>
 
                 <v-toolbar-title>Juan Peres</v-toolbar-title>
 
-                <v-btn>Administrar Cuenta</v-btn>
+                <v-btn color="teal accent-4" text>Administrar Cuenta</v-btn>
 
             </v-card>
 
