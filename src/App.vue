@@ -1,15 +1,12 @@
 <template>
   <v-app>
 
-    <MenuThree></MenuThree>
-    <v-navigation-drawer expand-on-hover permanent>
-      <Drawer />
-    </v-navigation-drawer>
+    <MenuFour />
+
+
     <!--
-    
-      <MenuOne></MenuOne> 
-      <MenuOne></MenuOne>
-        -->
+      <MenuThree></MenuThree>
+    -->
     <v-main>
       <router-view />
     </v-main>
@@ -17,18 +14,15 @@
 </template>
 
 <script>
-import MenuTwo from './components/MenuTwo.vue';
-import MenuOne from './components/MenuOne.vue';
 import MenuThree from './components/MenuThree.vue';
-import Drawer from './components/Drawer.vue'
+import MenuFour from './components/MenuFour.vue';
+
 
 
 export default {
   components: {
-    MenuTwo,
-    MenuOne,
     MenuThree,
-    Drawer
+    MenuFour
   },
   name: 'App',
 

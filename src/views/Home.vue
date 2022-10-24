@@ -1,18 +1,13 @@
 <template>
   <div>
-
-
-    
-
+    <h1>Hola mundo</h1>
 
   </div>
 </template>
 
 <script>
-import MenuOne from '../components/MenuOne.vue';
 export default {
   components: {
-    MenuOne,
   },
   name: 'App',
 

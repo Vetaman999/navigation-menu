@@ -1,6 +1,7 @@
 <template>
     <div>
         <v-list nav dense>
+
             <v-list-item-group v-model="selectedItem" color="teal accent-4">
 
                 <v-list-item v-for="(item, i) in items" :key="i">
@@ -24,6 +25,7 @@
 export default {
     data: () => ({
         selectedItem: 0,
+        drawer: true,
         items: [
             { text: 'My Files', icon: 'mdi-folder' },
             { text: 'Shared with me', icon: 'mdi-account-multiple' },
