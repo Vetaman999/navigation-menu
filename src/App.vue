@@ -3,7 +3,6 @@
 
     <MenuFour />
 
-
     <!--
       <MenuThree></MenuThree>
     -->
@@ -16,13 +15,14 @@
 <script>
 import MenuThree from './components/MenuThree.vue';
 import MenuFour from './components/MenuFour.vue';
-
+import MenuFive from './components/MenuFour.vue';
 
 
 export default {
   components: {
     MenuThree,
-    MenuFour
+    MenuFour,
+    MenuFive
   },
   name: 'App',
 
